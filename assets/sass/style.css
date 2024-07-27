@@ -28,7 +28,7 @@ html, body {
 
 /*Header section styles*/
 .header {
-  background-image: url("/assets/images/banner-bg.jpg");
+  background-image: url("../../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
