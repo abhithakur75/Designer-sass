@@ -20,7 +20,7 @@ body {
 
 @font-face {
   font-family: "Poppins";
-  src: url("/assets/font/Poppins-Regular.ttf");
+  src: url("../font/Poppins-Regular.ttf");
 }
 html, body {
   font-family: "Poppins", sans-serif;
@@ -28,7 +28,7 @@ html, body {
 
 /*Header section styles*/
 .header {
-  background-image: url("/assets/images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -112,13 +112,7 @@ html, body {
 }
 .home .form-control:focus {
   border-color: #000137;
-}
-.home .form-control::-moz-placeholder {
-  font-size: 1.1rem;
-}
-.home .form-control:-ms-input-placeholder {
-  font-size: 1.1rem;
-}
+ }
 .home .form-control::placeholder {
   font-size: 1.1rem;
 }
@@ -242,8 +236,7 @@ html, body {
   border-radius: 1rem;
   width: 95%;
   height: 55%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .work .content-text .title {
   padding-bottom: 1rem;
@@ -337,7 +330,7 @@ html, body {
 .whatstrending .content-img .second-img {
   height: 100%;
   width: 50%;
-  background-image: url("/assets/images/whats-trending-right-image.png");
+  background-image: url("../images/whats-trending-right-image.png");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -347,7 +340,7 @@ html, body {
   width: 50%;
   height: 140%;
   position: relative;
-  background-image: url("/assets/images/whats-trending-item-image.jpg");
+  background-image: url("../images/whats-trending-item-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -396,7 +389,7 @@ html, body {
 /*Whatstrending section styles*/
 /*Contact section styles*/
 .contact {
-  background-image: url("/assets/images/contact-us-bg.jpg");
+  background-image: url("../images/contact-us-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -617,6 +610,7 @@ html, body {
 }
 
 /*//Footer styles*/
+/*About Page styles*/
 /*Interior design styles*/
 .interior {
   display: grid;
@@ -681,7 +675,7 @@ html, body {
   width: 95%;
   margin: 0 auto;
   height: 100%;
-  background-image: url("/assets/images/testimonial-bg.png");
+  background-image: url("../images/testimonial-bg.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -748,7 +742,6 @@ html, body {
   font-size: 3rem;
 }
 
-/*About Page styles*/
 .about .page-secondary-text {
   width: 50%;
   margin: 0 auto;
@@ -781,6 +774,22 @@ html, body {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
+.about .content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.about .dropdown-item.active .content {
+  display: block;
+}
+.about .dropdown-item .icon {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.about .dropdown-item.active .icon i {
+  transform: rotate(180deg);
+}
 
 /*//About Page styles*/
 /*Explore Page styles*/
@@ -809,8 +818,7 @@ html, body {
   border-radius: 1rem;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -936,8 +944,7 @@ html, body {
 .trending .row img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 0.4s ease-in-out;
 }
 .trending .row .text {
@@ -1227,4 +1234,6 @@ html, body {
   .footer .form-btn {
     padding: 0.5rem;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
