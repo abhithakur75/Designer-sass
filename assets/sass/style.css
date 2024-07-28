@@ -748,7 +748,7 @@ html, body {
   font-size: 1rem;
 }
 .about .header {
-  background-image: url("/assets/images/page-banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   min-height: 80vh;
 }
 .about .about_form {
@@ -800,7 +800,7 @@ html, body {
   font-weight: light;
 }
 .explore .header {
-  background-image: url("/assets/images/page-banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   min-height: 80vh;
 }
 .explore .main-heading {
@@ -901,7 +901,7 @@ html, body {
   font-size: 1rem;
 }
 .trending .header {
-  background-image: url("/assets/images/page-banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   min-height: 80vh;
 }
 .trending .main-content {
@@ -984,7 +984,7 @@ html, body {
   font-size: 1rem;
 }
 .contactsection .header {
-  background-image: url("/assets/images/page-banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   min-height: 80vh;
 }
 .contactsection .content-text {
