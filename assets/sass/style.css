@@ -330,7 +330,7 @@ html, body {
 .whatstrending .content-img .second-img {
   height: 100%;
   width: 50%;
-  background-image: url("/assets/images/whats-trending-right-image.png");
+  background-image: url("../images/whats-trending-right-image.png");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -340,7 +340,7 @@ html, body {
   width: 50%;
   height: 140%;
   position: relative;
-  background-image: url("/assets/images/whats-trending-item-image.jpg");
+  background-image: url("../images/whats-trending-item-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -389,7 +389,7 @@ html, body {
 /*Whatstrending section styles*/
 /*Contact section styles*/
 .contact {
-  background-image: url("/assets/images/contact-us-bg.jpg");
+  background-image: url("../images/contact-us-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -675,7 +675,7 @@ html, body {
   width: 95%;
   margin: 0 auto;
   height: 100%;
-  background-image: url("/assets/images/testimonial-bg.png");
+  background-image: url("../images/testimonial-bg.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50%;
