@@ -28,7 +28,7 @@ html, body {
 
 /*Header section styles*/
 .header {
-  background-image: url("../images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -330,7 +330,7 @@ html, body {
 .whatstrending .content-img .second-img {
   height: 100%;
   width: 50%;
-  background-image: url("../images/whats-trending-right-image.png");
+  background-image: url("../images/whats-trending-right-image.webp");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -340,7 +340,7 @@ html, body {
   width: 50%;
   height: 140%;
   position: relative;
-  background-image: url("../images/whats-trending-item-image.jpg");
+  background-image: url("../images/whats-trending-item-image.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -389,7 +389,7 @@ html, body {
 /*Whatstrending section styles*/
 /*Contact section styles*/
 .contact {
-  background-image: url("../images/contact-us-bg.jpg");
+  background-image: url("../images/contact-us-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -675,7 +675,7 @@ html, body {
   width: 95%;
   margin: 0 auto;
   height: 100%;
-  background-image: url("../images/testimonial-bg.png");
+  background-image: url("../images/testimonial-bg.webp");
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -748,7 +748,7 @@ html, body {
   font-size: 1rem;
 }
 .about .header {
-  background-image: url("../images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.webp");
   min-height: 80vh;
 }
 .about .about_form {
@@ -800,7 +800,7 @@ html, body {
   font-weight: light;
 }
 .explore .header {
-  background-image: url("../images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.webp");
   min-height: 80vh;
 }
 .explore .main-heading {
@@ -901,7 +901,7 @@ html, body {
   font-size: 1rem;
 }
 .trending .header {
-  background-image: url("../images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.webp");
   min-height: 80vh;
 }
 .trending .main-content {
@@ -984,7 +984,7 @@ html, body {
   font-size: 1rem;
 }
 .contactsection .header {
-  background-image: url("../images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.webp");
   min-height: 80vh;
 }
 .contactsection .content-text {
